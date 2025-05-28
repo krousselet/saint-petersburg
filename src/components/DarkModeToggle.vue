@@ -1,9 +1,16 @@
 <template>
   <div class="container-child">
-  <label class="toggle-switch" for="darkThemeSwitch">
-    <input id="darkThemeSwitch" nama="darkThemeSwitch" type="checkbox" v-model="isDark" @change="applyTheme" />
-    <span class="slider"></span>
-  </label>
+    <label class="toggle-switch" for="darkThemeSwitch">
+      <input
+        id="darkThemeSwitch"
+        name="darkThemeSwitch"
+        type="checkbox"
+        v-model="isDark"
+        @change="applyTheme"
+      />
+      <span class="slider"></span>
+      <span class="visually-hidden">Toggle dark theme</span>
+    </label>
   </div>
 </template>
 
@@ -42,15 +49,26 @@ export default {
 </script>
 
 <style scoped>
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .toggle-switch {
   z-index: 1000;
   position: fixed;
   display: inline-block;
   width: 55px;
   height: 28px;
-  top: 100px;
+  top: 125px;
   left: 25px;
-  max-width: px;
 }
 
 .toggle-switch input {
@@ -62,7 +80,7 @@ export default {
 .slider {
   position: absolute;
   cursor: pointer;
-  background-color: #ccc;
+  background-color: #000000;
   border-radius: 34px;
   top: 0;
   left: 0;
@@ -78,13 +96,13 @@ export default {
   width: 22px;
   left: 4px;
   bottom: 3px;
-  background-color: white;
+  background-color: #E7A425;
   border-radius: 50%;
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: #007EBA;
 }
 
 input:checked + .slider::before {

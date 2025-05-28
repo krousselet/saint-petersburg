@@ -2,7 +2,9 @@
   <main class="mask-airfrance">
     <div class="video-container">
       <video autoplay muted loop playsinline>
-        <source src="/videos/sky.mp4" type="video/mp4" />
+        <source src="/videos/saint-petersburg.mp4" type="video/mp4" alt="image de WmMedia"
+        href="https://www.vecteezy.com/free-videos/saint-petersburg">"
+        />
         Le navigateur ne supporte pas la vidéo.
       </video>
     </div>
@@ -24,6 +26,11 @@
             >
              {{ $t("location") }} 
             </text>
+         
+            <circle r="2" cx="50" cy="30" fill="black" />
+            <circle r="2" cx="50" cy="60" fill="black" />
+            <circle r=".3rem" cx="50" cy="50" fill="black" />
+
             <text
               x="50%"
               y="65%"

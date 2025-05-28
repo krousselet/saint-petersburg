@@ -37,7 +37,19 @@ body {
    margin: 0;
   padding: 0;
   height: 100dvh;
-  overflow-x: hidden;
+  overflow: hidden;
+}
+
+.bg-blue {
+  background-color: #0095DA;
+}
+
+.bg-orange {
+  background-color: #EAB045;
+}
+
+.bg-red {
+    background-color: #ED1C24;
 }
 
 .uppercase {
@@ -47,10 +59,6 @@ body {
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
-}
-
-body.dark-mode main .container ul li span {
-  color: red;
 }
 
 body.dark-mode nav {
@@ -158,6 +166,9 @@ ul {
 
 nav {
   display: flex;
+  background-color: #e7a325d8;
+  color: #0095DA !important;
+  border-radius: 0 0 14px 14px;
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
@@ -166,9 +177,13 @@ nav {
   top: 0;
   left: 0;
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.699);
+  box-shadow: 0 0 25px #e7a325d8;
   @media (min-width: 320px) and (max-width: 550px) {
     height: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
   }
   @media (min-width: 551px) {
     height: 120px;

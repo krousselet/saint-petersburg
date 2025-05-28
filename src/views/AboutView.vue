@@ -1,7 +1,7 @@
 <template>
   <main>
     <section id="first-part">
-      <div class="container appear-one">
+      <div class="container container-one appear-one">
         <ul>
           <li>
             {{ $t("flightAttended") }}: <span>{{ flightAttended }}%</span>
@@ -210,7 +210,7 @@ main {
 
           span {
             font-weight: 900;
-            color: gray;
+            color: #007EBA;
           }
         }
 

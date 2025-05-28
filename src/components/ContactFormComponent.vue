@@ -1,47 +1,47 @@
 <template>
-  <div class="contact-form">
-    <form
-      @submit.prevent="handleSubmit"
-      v-if="!submitted"
-      action="https://formspree.io/f/xanokgkz"
-      method="POST"
-    >
-      <h2>{{ $t("formTitle") }}</h2>
+    <div class="contact-form">
+      <form
+        @submit.prevent="handleSubmit"
+        v-if="!submitted"
+        action="https://formspree.io/f/xanokgkz"
+        method="POST"
+      >
+        <h2>{{ $t("formTitle") }}</h2>
 
-      <input
-        v-model="form.name"
-        type="text"
-        :placeholder="$t('placeholderName')"
-        required
-      />
-      <input
-        v-model="form.email"
-        type="email"
-        :placeholder="$t('placeholderEmail')"
-        required
-      />
-      <textarea
-        v-model="form.message"
-        :placeholder="$t('placeholderMessage')"
-        required
-      ></textarea>
-
-      <button type="submit">{{ $t("formSend") }}</button>
-    </form>
-
-    <!-- Animation on submission -->
-    <div v-else class="animation">
-      <svg class="plane" viewBox="0 0 24 24">
-        <path
-          d="M2 3l20 9-20 9 3-9-3-9zM5 12l15 0"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
+        <input
+          v-model="form.name"
+          type="text"
+          :placeholder="$t('placeholderName')"
+          required
         />
-      </svg>
-      <p>{{ $t('formValidationText') }}</p>
+        <input
+          v-model="form.email"
+          type="email"
+          :placeholder="$t('placeholderEmail')"
+          required
+        />
+        <textarea
+          v-model="form.message"
+          :placeholder="$t('placeholderMessage')"
+          required
+        ></textarea>
+
+        <button type="submit">{{ $t("formSend") }}</button>
+      </form>
+
+      <!-- Animation on submission -->
+      <div v-else class="animation">
+        <svg class="plane" viewBox="0 0 24 24">
+          <path
+            d="M2 3l20 9-20 9 3-9-3-9zM5 12l15 0"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          />
+        </svg>
+        <p>{{ $t("formValidationText") }}</p>
+      </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -58,31 +58,31 @@ export default {
     };
   },
   methods: {
-  async handleSubmit() {
-    try {
-      const response = await fetch("https://formspree.io/f/xanokgkz", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(this.form),
-      });
+    async handleSubmit() {
+      try {
+        const response = await fetch("https://formspree.io/f/xanokgkz", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(this.form),
+        });
 
-      if (response.ok) {
-        this.submitted = true;
-        setTimeout(() => {
-          this.submitted = false;
-          this.form = { name: "", email: "", message: "" };
-        }, 5000);
-      } else {
-        alert("Something went wrong. Please try again.");
+        if (response.ok) {
+          this.submitted = true;
+          setTimeout(() => {
+            this.submitted = false;
+            this.form = { name: "", email: "", message: "" };
+          }, 5000);
+        } else {
+          alert("Something went wrong. Please try again.");
+        }
+      } catch (err) {
+        console.error("Submission failed", err);
+        alert("Error submitting form.");
       }
-    } catch (err) {
-      console.error("Submission failed", err);
-      alert("Error submitting form.");
-    }
+    },
   },
-},
 };
 </script>
 
@@ -104,6 +104,7 @@ export default {
     margin-bottom: 1.5rem;
     font-size: 1.8rem;
     text-align: center;
+    padding: 0.3rem;
   }
 
   input,
@@ -113,12 +114,12 @@ export default {
     margin-bottom: 1rem;
     padding: 1rem;
     border-radius: 0.5rem;
-    border: 1px solid #ccc;
+    border: 1px solid #e7a425;
     font-size: 1rem;
   }
 
   button {
-    background: #002157;
+    background: #007eba;
     color: white;
     border: none;
     padding: 0.8rem 1.5rem;

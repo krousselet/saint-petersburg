@@ -25,6 +25,26 @@ const messages = {
     hoursInFlight: "Flight hours",
     incidentEncountered: "Incidents encountered",
     countryDiscovered: "Country Discovered",
+    //APPLY
+    experience: "Experience",
+    programmingLanguages: "Languages",
+    educationCertifications: "Diploma",
+    additionalLinks: "Additionnal links",
+      //EXPERIENCE COMPONENT
+      cashier: "Cashier",
+      leclercStart: "E. Leclerc",
+      superU: "Super U",
+      writer: "Writer",
+      webDeveloper: "Web developer",
+      artist: "Artist",
+      //LANGUAGES
+      frenchLanguage: "French",
+      englishLanguage: "English",
+      italianLanguage: "Italian",
+      spanishLanguage: "Spanish",
+      russianLanguage: "Russian",
+      japaneseLanguage: "Japanese",
+      indonesianLanguage: "Indonesian",
     // ABOUT PAGE
     formTitle: "Contact me",
     placeholderName: "Your name",
@@ -60,7 +80,31 @@ const messages = {
     milesTravelled: "Kilomètres jusqu'à mon but",
     incidentEncountered: "Incidents rencontrés",
     countryDiscovered: "Pays à traverser",
-    //APPLY
+   //APPLY
+    experience: "Expérience",
+    programmingLanguages: "Langages",
+    educationCertifications: "Diplômes",
+    additionalLinks: "Liens additionnels",
+      //EXPERIENCE COMPONENT
+      cashier: "Caissier",
+      leclercStart: "E. Leclerc",
+      superU: "Super U",
+        //WRITER
+      writer: "Ecrivain",
+      scienceFiction: "J'ai écrit de la science-fiction",
+      philosophy: "J'ai écrit de la philosophie",
+      action: "J'ai écrit de l'action",
+      genre: "J'ai écrit des romans, des nouvelles et de la poésie",
+      webDeveloper: "Développeur web",
+      artist: "Artiste",
+      //LANGUAGES
+      frenchLanguage: "Français",
+      englishLanguage: "Anglais",
+      italianLanguage: "Italien",
+      spanishLanguage: "Espagnol",
+      russianLanguage: "Russe",
+      japaneseLanguage: "Japonais",
+      indonesianLanguage: "Indonésien",
     // ABOUT PAGE
     formTitle: "Contactez moi",
     placeholderName: "Votre nom",
@@ -97,8 +141,37 @@ const messages = {
     determination: "Я сделал этот сайт",
     qualitiesOne: "Я говорю на нескольких языках",
     qualitiesTwo: "Строгость, страсть, самообладание, дисциплина, уважать...",
-    motivation: "Pour faire de chaque vol un succès",
+    motivation: "Я пишу книги и играю на пианино уже 23 года",
     //APPLY
+    experience: "Опыт",
+    programmingLanguages: "Языки",
+    educationCertifications: "Дипломы",
+    additionalLinks: "Дополнительные ссылки",
+    //EXPERIENCE COMPONENT
+      //CASHIER
+    cashier: "кассир",
+    leclercStart: "Э. Леклерк",
+    superU: "Супер Ю",
+    //WRITER
+    writer: "Писатель",
+    scienceFiction: "Я писал научную фантастику",
+    philosophy: "Я написал философию",
+    action: "я написал действие",
+    genre: "Я написал романы, рассказы и стихи.",
+    //WEBDEV
+    webDeveloper: "Веб-разработчик",
+    morocco: "Я провел два месяца в Марокко. Там я в составе команды занимался разработкой банковского приложения.",
+    own: "Я давал уроки игры на фортепиано",
+    //ARTIST
+    artist: "Художник",
+    //LANGUAGES
+    frenchLanguage: "французский",
+    englishLanguage: "английский",
+    italianLanguage: "итальянский",
+    spanishLanguage: "испанский",
+    russianLanguage: "Русский",
+    japaneseLanguage: "японский",
+    indonesianLanguage: "индонезийский",
     // ABOUT PAGE
     formTitle: "Свяжитесь со мной",
     placeholderName: "Ваше имя",
@@ -106,6 +179,14 @@ const messages = {
     placeholderMessage: "Ваше сообщение",
     formSend: "Отправлять",
     formValidationText: "Ваше сообщение успешно отправлено",
+    //ADDITIONNAL LINKS COMPONENT
+      //NIHONGO
+      nihongo: "нихонго",
+      nihongoLearn: "Изучайте японский",
+      nihongoDictionnary: "Японский словарь",
+      russianDictionnary: "Русский словарь",
+      myBook: "Одна из моих книг",
+      adiscarTitle: "Адискар",
   },
   it: {
     // NAV
