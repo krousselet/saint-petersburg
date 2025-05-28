@@ -36,6 +36,10 @@
         <p>{{ $t("determination") }}</p>
         <p>{{ $t("qualitiesOne") }}</p>
         <p>{{ $t("qualitiesTwo") }}</p>
+      </div>
+    </section>
+    <section id="third-part">
+      <div class="container appear">
         <p>{{ $t("motivation") }}</p>
       </div>
     </section>
