@@ -69,12 +69,12 @@ export default {
       return "0 0 100 100"; // Keep this constant unless you need a taller box
     },
     titleFontSize() {
-      if (this.screenWidth < 550) return 3;
+      if (this.screenWidth < 550) return 5;
       if (this.screenWidth < 1024) return 5;
       return 7; // Large desktops or ultrawide screens
     },
     sloganFontSize() {
-      if (this.screenWidth < 550) return 2.2;
+      if (this.screenWidth < 550) return 3;
       if (this.screenWidth < 1024) return 3;
       return 5;
     },

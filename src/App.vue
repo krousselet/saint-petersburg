@@ -32,6 +32,12 @@ export default {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #0095DA;
+  padding: 0 .2rem .2rem .2rem;
+}
+
 body {
   background-color: white;
    margin: 0;

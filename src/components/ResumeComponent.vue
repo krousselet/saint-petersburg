@@ -35,12 +35,14 @@ import ExperienceComponent from './ExperienceComponent.vue'
 import LanguagesComponent from './LanguagesComponent.vue'
 import EducationComponent from './EducationComponent.vue'
 import LinksComponent from './LinksComponent.vue'
+import ArtistComponent from './ArtistComponent.vue'
 
 const sections = computed(() => [
   { title: t('experience'), component: ExperienceComponent },
   { title: t('programmingLanguages'), component: LanguagesComponent },
   { title: t('educationCertifications'), component: EducationComponent },
-  { title: t('additionalLinks'), component: LinksComponent }
+  { title: t('additionalLinks'), component: LinksComponent },
+  { title: t('artist'), component: ArtistComponent }
 ])
 
 const activeSection = ref(null)
@@ -50,10 +52,34 @@ const toggleSection = (index) => {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+
+body.dark-mode main {
+  color: #E7A425;
+  background-color: black;
+
+  .resume-section {
+
+    h2 {
+      background-color: transparent;
+      color: #0095DA;
+    }
+
+    .section-content {
+      background-color: black;
+      border-radius: 14px;
+    }
+  }
+}
+
+
+
 main {
   width: 100vw;
   height: 100dvh;
+  @media (max-width: 550px) {
+    margin-top: 110px !important;
+  }
 }
 
 .container {
@@ -99,12 +125,13 @@ main {
 }
 
 .section-title:hover {
-  color: #8e44ad;
+  color: #E7A425;
+  letter-spacing: 3px;
 }
 
 .section-content {
   background-color: #fff;
-  border-left: 3px solid #8e44ad;
+  border-left: 3px solid #E7A425;
   margin-top: 0.5rem;
   width: 100%;
 }

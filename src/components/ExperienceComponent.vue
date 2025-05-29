@@ -1,5 +1,4 @@
 <template>
-  <div>
     <h3>{{ $t("cashier") }}</h3>
     <ul>
       <li><time>2011 </time>{{ $t("leclercStart") }}</li>
@@ -23,10 +22,13 @@
     <ul>
       <li><time>2025 </time>{{ $t("own") }}</li>
     </ul>
-  </div>
 </template>
 
 <style lang="scss">
+
+body.dark-mode main h3 {
+  color: #0095DA;
+}
 h3 {
   margin-left: .2rem;
 }

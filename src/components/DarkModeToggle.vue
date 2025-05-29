@@ -68,7 +68,7 @@ export default {
   width: 55px;
   height: 28px;
   top: 125px;
-  left: 25px;
+  right: 25px;
 }
 
 .toggle-switch input {

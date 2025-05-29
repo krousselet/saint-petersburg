@@ -12,6 +12,15 @@
       <li>{{ $t("japaneseLanguage") }}</li>
       <li>{{ $t("indonesianLanguage") }}</li>
     </ul>
+    <ul>
+      <li>{{ $t("frenchLanguageLevel") }}</li>
+      <li>{{ $t("englishLanguageLevel") }}</li>
+      <li>{{ $t("italianLanguageLevel") }}</li>
+      <li>{{ $t("spanishLanguageLevel") }}</li>
+      <li>{{ $t("russianLanguageLevel") }}</li>
+      <li>{{ $t("japaneseLanguageLevel") }}</li>
+      <li>{{ $t("indonesianLanguageLevel") }}</li>
+    </ul>
   </div>
 </template>
 

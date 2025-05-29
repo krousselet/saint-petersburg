@@ -36,6 +36,8 @@ const messages = {
       superU: "Super U",
       writer: "Writer",
       webDeveloper: "Web developer",
+      morocco: "I spent two months in Morocco. There, I was part of a team developing a banking application.",
+      own: "I gave piano lessons",
       artist: "Artist",
       //LANGUAGES
       frenchLanguage: "French",
@@ -45,6 +47,32 @@ const messages = {
       russianLanguage: "Russian",
       japaneseLanguage: "Japanese",
       indonesianLanguage: "Indonesian",
+      frenchLanguageLevel: "Native",
+      englishLanguageLevel: "Intermediate",
+      italianLanguageLevel: "Intermediate",
+      spanishLanguageLevel: "Intermediate",
+      russianLanguageLevel: "Beginner",
+      japaneseLanguageLevel: "Beginner",
+      indonesianLanguageLevel: "Beginner",
+      // EDUCATION
+      versoie: "La Versoie High School",
+      bac: "Literature Baccalaureate",
+      car: "Driving License",
+      certification: "Web development certication",
+      certificationDetails: "I have obtained a web developer certification for both front-end and back-end",
+      cca: "Cabin crew attestation",
+      ccaDetails: "I passed the theoretical part and I will take the practical part in September. Then I will have my wings",
+      //NIHONGO
+      nihongo: "Nihongo",
+      nihongoLearn: "Learn Japanese",
+      nihongoDictionnary: "Japanese dictionary",
+      russianDictionnary: "Russian dictionary",
+      myBook: "One of my books",
+      adiscarTitle: "Adiscar",
+      //ARTIST COMPONENT
+      //ARTIST
+      music: "One of my creations",
+      favouritePerson: "I dedicate this improvisation to my favorite person on this earth. May the winds be favorable to us",
     // ABOUT PAGE
     formTitle: "Contact me",
     placeholderName: "Your name",
@@ -105,6 +133,33 @@ const messages = {
       russianLanguage: "Russe",
       japaneseLanguage: "Japonais",
       indonesianLanguage: "Indonésien",
+      frenchLanguageLevel: "Natif",
+      englishLanguageLevel: "Intermédiaire",
+      italianLanguageLevel: "Intermédiaire",
+      spanishLanguageLevel: "Intermédiaire",
+      russianLanguageLevel: "Débutant",
+      japaneseLanguageLevel: "Débutant",
+      indonesianLanguageLevel: "Débutant",
+      // EDUCATION
+      versoie: "Lycée de la Versoie",
+      bac: "Baccalauréat littéraire",
+      car: "Permis de conduire",
+      certification: "Certification de développement web",
+      certificationDetails: "J'ai obtenu une certification de développeur web à la fois pour le font-end et le back-end",
+      cca: "Attestation de personnel naviguant",
+      ccaDetails: "J'ai réussi la partie théorique et je passerai la partie pratique en septembre. Alors j'aurai mes ailes",
+    //ADDITIONNAL LINKS
+      //NIHONGO
+      nihongo: "Nihongo",
+      nihongoLearn: "Apprendre le Japonais",
+      nihongoDictionnary: "Dictionnaire Japonais",
+      russianDictionnary: "Dictionnaire Russe",
+      myBook: "Un de mes livres",
+      adiscarTitle: "Adiscar",
+    //ARTIST COMPONENT
+      //ARTIST
+      music: "Une de mes compositions",
+      favouritePerson: "Je dédie cette improvisation à ma personne préférée sur cette terre. Puissent les vents nous être favorables",
     // ABOUT PAGE
     formTitle: "Contactez moi",
     placeholderName: "Votre nom",
@@ -148,38 +203,46 @@ const messages = {
     educationCertifications: "Дипломы",
     additionalLinks: "Дополнительные ссылки",
     //EXPERIENCE COMPONENT
-      //CASHIER
-    cashier: "кассир",
-    leclercStart: "Э. Леклерк",
-    superU: "Супер Ю",
-    //WRITER
-    writer: "Писатель",
-    scienceFiction: "Я писал научную фантастику",
-    philosophy: "Я написал философию",
-    action: "я написал действие",
-    genre: "Я написал романы, рассказы и стихи.",
-    //WEBDEV
-    webDeveloper: "Веб-разработчик",
-    morocco: "Я провел два месяца в Марокко. Там я в составе команды занимался разработкой банковского приложения.",
-    own: "Я давал уроки игры на фортепиано",
-    //ARTIST
-    artist: "Художник",
-    //LANGUAGES
-    frenchLanguage: "французский",
-    englishLanguage: "английский",
-    italianLanguage: "итальянский",
-    spanishLanguage: "испанский",
-    russianLanguage: "Русский",
-    japaneseLanguage: "японский",
-    indonesianLanguage: "индонезийский",
-    // ABOUT PAGE
-    formTitle: "Свяжитесь со мной",
-    placeholderName: "Ваше имя",
-    placeholderEmail: "ваша электронная почта",
-    placeholderMessage: "Ваше сообщение",
-    formSend: "Отправлять",
-    formValidationText: "Ваше сообщение успешно отправлено",
-    //ADDITIONNAL LINKS COMPONENT
+        //CASHIER
+        cashier: "кассир",
+        leclercStart: "Э. Леклерк",
+        superU: "Супер Ю",
+        //WRITER
+        writer: "Писатель",
+        scienceFiction: "Я писал научную фантастику",
+        philosophy: "Я написал философию",
+        action: "я написал действие",
+        genre: "Я написал романы, рассказы и стихи.",
+        //WEBDEV
+        webDeveloper: "Веб-разработчик",
+        morocco: "Я провел два месяца в Марокко. Там я в составе команды занимался разработкой банковского приложения",
+        own: "Я давал уроки игры на фортепиано",
+        //ARTIST
+        artist: "Художник",
+        //LANGUAGES
+        frenchLanguage: "французский",
+        englishLanguage: "английский",
+        italianLanguage: "итальянский",
+        spanishLanguage: "испанский",
+        russianLanguage: "Русский",
+        japaneseLanguage: "японский",
+        indonesianLanguage: "индонезийский",
+        frenchLanguageLevel: "Родной",
+        englishLanguageLevel: "Средний",
+        italianLanguageLevel: "Средний",
+        spanishLanguageLevel: "Средний",
+        russianLanguageLevel: "Новичок",
+        japaneseLanguageLevel: "Новичок",
+        indonesianLanguageLevel: "Новичок",
+        //EDUCATION
+        versoie: "Средняя школа Версои",
+        bac: "Литературный бакалавриат",
+        car: "Водительские права",
+        certification: "Сертификация веб-разработки",
+        certificationDetails: "Я получил сертификат веб-разработчика как 'front-end', так и 'back-end'.",
+        cca: "Аттестация бортпроводников",
+        ccaDetails: "Я сдал теоретическую часть и в сентябре буду сдавать практическую часть. Тогда я получу свои крылья",
+        //ADDITIONNAL LINKS COMPONENT
       //NIHONGO
       nihongo: "нихонго",
       nihongoLearn: "Изучайте японский",
@@ -187,6 +250,17 @@ const messages = {
       russianDictionnary: "Русский словарь",
       myBook: "Одна из моих книг",
       adiscarTitle: "Адискар",
+      //ARTIST COMPONENT
+      //ARTIST
+      music: "Одно из моих творений",
+      favouritePerson: "Эту импровизацию я посвящаю моему самому любимому человеку на этой земле. Пусть ветры будут нам попутны",
+    // ABOUT PAGE
+    formTitle: "Свяжитесь со мной",
+    placeholderName: "Ваше имя",
+    placeholderEmail: "ваша электронная почта",
+    placeholderMessage: "Ваше сообщение",
+    formSend: "Отправлять",
+    formValidationText: "Ваше сообщение успешно отправлено",
   },
   it: {
     // NAV
