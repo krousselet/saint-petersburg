@@ -464,11 +464,11 @@ const messages = {
       "Dedico esta improvisación a mi persona favorita en la tierra. Que los vientos nos sean favorables",
     // ABOUT PAGE
     formTitle: "Contáctame",
-    placeholderName: "Tu nombre",
-    placeholderEmail: "Tu correo",
-    placeholderMessage: "Tu mensaje",
+    placeholderName: "Su nombre",
+    placeholderEmail: "Su correo",
+    placeholderMessage: "Su mensaje",
     formSend: "Enviar",
-    formValidationText: "Tu mensaje ha sido enviado correctamente",
+    formValidationText: "Su mensaje ha sido enviado correctamente",
   },
   de: {
     // NAV
