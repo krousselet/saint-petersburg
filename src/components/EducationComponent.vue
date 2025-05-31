@@ -16,5 +16,9 @@
     <ul>
       <li><time>2025 </time>{{ $t('ccaDetails') }}</li>
     </ul>
+     <h3>{{ $t('lilate') }}</h3>
+    <ul>
+      <li><time>2025 </time>{{ $t('lilateEnglish') }}</li>
+    </ul>
   </div>
 </template>

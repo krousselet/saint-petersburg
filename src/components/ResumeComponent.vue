@@ -56,7 +56,7 @@ const toggleSection = (index) => {
 
 body.dark-mode main {
   color: #E7A425;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
 
   .resume-section {
 
