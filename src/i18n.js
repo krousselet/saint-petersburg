@@ -103,22 +103,23 @@ const messages = {
     slogan: "Commencer une nouvelle vie",
     toggleDark: "Mode Sombre",
     // ABOUT PAGE
-    //BLOC 1
     hello: "Bonjour",
-    myself: "Moi, c'est Kevin, et je viens d'avoir mes ailes",
-    data: "Mes états de service",
-    determination: "Je suis prêt à prouver ma valeur dans les airs",
-    qualities: "Rigueur, passion, sang-froid, sécurité...",
-    amateur: "Bien que je sois novice",
-    motivation: "Pour faire de chaque vol un succès",
+    myself: "Je suis Kevin, et je veux vivre à Saint Petersbourg",
+    data: "Je suis tombé amoureux de la culture Russe",
     //BLOC 2
     flightAttended: "Détermination",
-    hoursInFlight: "Maîtrise du Russe",
-    progress: "En progression",
-    km: "kilomètres",
+    hoursInFlight: "Connaissance de la langue Russe",
+    progress: "En croissance",
+    km: "Kilomètres",
     milesTravelled: "Kilomètres jusqu'à mon but",
     incidentEncountered: "Incidents rencontrés",
-    countryDiscovered: "Pays à traverser",
+    countryDiscovered: "Pays traversés",
+    //BLOC 3
+    amateur: "Je suis français",
+    determination: "J'ai fait ce site internet",
+    qualitiesOne: "Je parle plusieurs langages",
+    qualitiesTwo: "Rigeur, passion, sang-froid, discipline, respect...",
+    motivation: "J'ai écrit des livres et je joue du piano depuis 23 ans",
     //APPLY
     experience: "Expérience",
     programmingLanguages: "Langages",
@@ -292,7 +293,7 @@ const messages = {
     contact: "Contatto",
     // SLOGAN
     location: "San Pietroburgo",
-    slogan: "Inizia una nuova vita",
+    slogan: "Iniziare una nuova vita",
     toggleDark: "Modalità scura",
     // ABOUT PAGE
     //BLOC 1
