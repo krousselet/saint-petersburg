@@ -43,8 +43,8 @@ const messages = {
     webDeveloper: "Web developer",
     morocco:
       "I spent two months in Morocco. There, I was part of a team developing a banking application.",
-    own: "I gave piano lessons",
-    artist: "Artist",
+      own: "I gave piano lessons",
+      artist: "Artist",
     //LANGUAGES
     frenchLanguage: "French",
     englishLanguage: "English",
@@ -136,6 +136,9 @@ const messages = {
     action: "J'ai écrit de l'action",
     genre: "J'ai écrit des romans, des nouvelles et de la poésie",
     webDeveloper: "Développeur web",
+    morocco:
+      "J'ai passé deux mois au Maroc. Là-bas, j'ai fait partie d'une équipe développant une application bancaire",
+      own: "J'ai donné des cours de piano",
     artist: "Artiste",
     //LANGUAGES
     frenchLanguage: "Français",
@@ -331,6 +334,9 @@ const messages = {
     action: "Ho scritto azione",
     genre: "Ho scritto romanzi, racconti e poesie",
     webDeveloper: "Sviluppatore web",
+    morocco:
+      "Ho trascorso due mesi in Marocco. Lì facevo parte di un team che sviluppava un'applicazione bancaria",
+      own: "Ho dato lezioni di pianoforte",
     artist: "Artista",
     // LANGUAGES
     frenchLanguage: "Francese",
@@ -424,6 +430,9 @@ const messages = {
     action: "He escrito acción",
     genre: "He escrito novelas, cuentos y poesía",
     webDeveloper: "Desarrollador web",
+    morocco:
+      "Pasé dos meses en Marruecos. Allí formé parte de un equipo que desarrollaba una aplicación bancaria.",
+      own: "He dado clases de piano",
     artist: "Artista",
     // LANGUAGES
     frenchLanguage: "Francés",
@@ -517,6 +526,9 @@ const messages = {
     action: "Ich habe Action geschrieben",
     genre: "Ich habe Romane, Kurzgeschichten und Poesie geschrieben",
     webDeveloper: "Webentwickler",
+    morocco:
+      "Ich habe zwei Monate in Marokko verbracht. Dort war ich Teil eines Teams, das eine Bankanwendung entwickelte",
+      own: "Ich habe Klavierunterricht gegeben",
     artist: "Künstler",
     // LANGUAGES
     frenchLanguage: "Französisch",
@@ -609,6 +621,8 @@ const messages = {
     action: "アクションを書きました",
     genre: "小説、短編、小詩を書きました",
     webDeveloper: "ウェブ開発者",
+    morocco: "私はモロッコで二か月を過ごしました。",
+    own: "ピアノのレッスンをしました",
     artist: "アーティスト",
     // LANGUAGES
     frenchLanguage: "フランス語",
@@ -701,6 +715,8 @@ const messages = {
     action: "我写过动作小说",
     genre: "我写过小说、短篇和诗歌",
     webDeveloper: "网页开发者",
+    morocco: "我在摩洛哥呆了两个月。",
+    own: "我上过钢琴课",
     artist: "艺术家",
     // LANGUAGES
     frenchLanguage: "法语",
